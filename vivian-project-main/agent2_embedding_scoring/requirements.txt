@@ -1,0 +1,24 @@
+# Agent 2 — Embedding & Scoring
+# Core
+numpy>=1.24
+pandas>=2.0
+opencv-python>=4.8          # frame sampling from video clips
+Pillow>=10.0                # image pre-processing for CLIP
+tqdm>=4.0                   # progress bars (optional but recommended)
+openpyxl>=3.1               # required by pandas for .xlsx reading in Agent 1 (shared env)
+
+# Primary model — CLIP
+# Install from source (pip install does not exist on PyPI):
+#   pip install git+https://github.com/openai/CLIP.git
+# CLIP itself requires:
+torch>=2.0
+torchvision>=0.15
+
+# Comparison model — ImageBind (optional, comparison sample only)
+# Install from source:
+#   pip install git+https://github.com/facebookresearch/ImageBind.git
+# or:
+#   pip install imagebind
+# ImageBind additionally requires:
+#   torchaudio>=2.0
+#   decord>=0.6

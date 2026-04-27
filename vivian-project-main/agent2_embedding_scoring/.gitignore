@@ -1,0 +1,6 @@
+.venv/
+.checkpoints/
+output/embeddings_cache/
+__pycache__/
+*.pth
+*.pyc

@@ -1,0 +1,13 @@
+{
+  "total_rows_read": 1199,
+  "valid_rows": 8,
+  "invalid_rows": 1191,
+  "rows_with_warnings": 0,
+  "clips_generated": 24,
+  "clips_skipped": 0,
+  "failures": 0,
+  "fallback_reencodes": 0,
+  "dry_run": false,
+  "clip_extraction_mode": "accurate_mode",
+  "duration_tolerance_seconds": 0.5
+}
