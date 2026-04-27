@@ -1,0 +1,13 @@
+{
+  "total_rows_loaded": 24,
+  "rows_skipped": 0,
+  "rows_scored": 24,
+  "rows_failed": 0,
+  "primary_model": "clip",
+  "clip_model_variant": "ViT-B/32",
+  "frames_per_clip": 8,
+  "similarity_metric": "cosine",
+  "model_comparison_sample_size": 20,
+  "dry_run": false,
+  "cache_embeddings": true
+}
